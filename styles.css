@@ -17,6 +17,17 @@ body {
   border-bottom: 4px solid #fdb347;
 }
 
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
 .gallery img {
   width: 100%;
   max-width: 350px;
